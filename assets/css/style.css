@@ -16,22 +16,84 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/*Header*/
+
 header {
-    background-color: aqua;
+    background-color: #d7c5ed;
     width: 100%;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #311432;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+#main-menu {
+    font-size: 120%;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 3px solid #311432;
+}
+
+/*Nav styles*/
+nav {
+    position: absolute;
+    background-color: #d7c5ed;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #311432;
+    display: none;
+    top: 100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+/*Main Content*/
 main {
-    background-color: aquamarine;
+    background-color: whitesmoke;
     width: 100%;
+    /*Make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
-footer {
-    background-color: #f55fcd;
-    width: 100%;
-}
 
 /*Footer*/
+footer {
+    background-color: #311432;
+    width: 100%;
+}
+
 #footer-icons {
     text-align: center;
     padding: 20px 0;
@@ -43,5 +105,5 @@ footer {
 #footer-icons i {
     font-size: 150%;
     padding: 5%;
-    color: whitesmoke;
+    color: #d7c5ed;
 }
