@@ -16,7 +16,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1,
+h1 {
+    font-family: 'Permanent Marker', sans-serif;
+    letter-spacing: 5px;
+}
+
 h2,
 h3 {
     font-family: 'Poppins', sans-serif;
@@ -45,8 +49,6 @@ header {
 header a {
     text-decoration: none;
     color: #311432;
-    font-family: 'Permanent Marker', sans-serif;
-    letter-spacing: 5px;
 }
 
 #main-menu {
