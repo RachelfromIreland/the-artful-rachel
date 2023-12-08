@@ -16,6 +16,21 @@ main {
 }
 
 footer {
-    background-color: pink;
+    background-color: #f55fcd;
     width: 100%;
+}
+
+/*Footer*/
+#footer-icons {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#footer-icons i {
+    font-size: 150%;
+    padding: 5%;
+    color: whitesmoke;
 }
