@@ -1,5 +1,5 @@
 /*Import for Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Poppins:wght@100;200;300;400;500&display=swap');
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Charmonman', sans-serif;
     letter-spacing: 5px;
 }
 
@@ -28,18 +28,14 @@ h3 {
     letter-spacing: 2px;
 }
 
-.hidden-heading {
-    display: none;
-}
-
 /*Header*/
 
 header {
-    background-color: #d7c5ed;
+    background-color: #979f83;
     width: 100%;
     position: fixed;
     z-index: 99;
-    box-shadow: 0 2px 2px #311432;
+    box-shadow: 0 2px 2px #192e25;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -48,7 +44,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #311432;
+    color: #192e25;
 }
 
 #main-menu {
@@ -64,17 +60,17 @@ header a {
 }
 
 .active {
-    border-bottom: 3px solid #311432;
+    border-bottom: 3px solid #192e25;
 }
 
 /*Nav styles*/
 nav {
     position: absolute;
-    background-color: #d7c5ed;
+    background-color: #979f83;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #311432;
+    box-shadow: 0 2px 2px #192e25;
     display: none;
     top: 100%;
 }
@@ -105,7 +101,7 @@ main {
 
 /*Footer*/
 footer {
-    background-color: #311432;
+    background-color: #192e25;
     width: 100%;
 }
 
@@ -120,5 +116,44 @@ footer {
 #footer-icons i {
     font-size: 150%;
     padding: 5%;
-    color: #d7c5ed;
+    color: #979f83;
+}
+
+
+/*Media queries for responsive design*/
+/*Tablets and up - 768px plus*/
+@media screen and (min-width: 768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    } 
+
+    /*Main content*/
+    main {
+        /*Push main content down under header*/
+        margin-top: 79px;
+    }
 }
