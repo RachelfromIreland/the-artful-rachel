@@ -97,6 +97,47 @@ main {
 }
 
 
+/*Art Gallery Page*/
+
+/*Image container*/
+#gallery-portrait, #gallery-landscape {
+    display: grid;
+    justify-content: space-between;
+}
+
+/* Images */ 
+.gallery-img{ 
+    position: relative;
+    /*width: 100%;
+    height: 100%;*/ 
+    margin: 10px; 
+   } 
+    
+   /* Floating Text */ 
+   .gallery-img div{ 
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    background: black; 
+    color: white; 
+    margin-bottom: 5px; 
+    font-family: "Poppins", sans-serif; 
+    opacity: 0; 
+    visibility: hidden; 
+   } 
+    
+   /* Code making text appear while hovering */ 
+   .gallery-img:hover:hover{ 
+    cursor: pointer; 
+   } 
+    
+   .gallery-img:hover div{ 
+    width: 150px; 
+    padding: 8px 15px; 
+    visibility: visible; 
+    opacity: 0.7;  
+   } 
+
 /*Footer*/
 footer {
     background-color: #192e25;
@@ -125,6 +166,13 @@ footer {
     #logo {
         font-size: 180%;
     }
+
+    /*Gallery Page*/
+    #gallery-portrait, #gallery-landscape {
+        grid-template-columns: repeat(2, auto);
+    }
+
+
 }
 /*Tablets and up - 768px plus*/
 @media screen and (min-width: 768px) {
@@ -160,6 +208,11 @@ footer {
         /*Push main content down under header*/
         margin-top: 75px;
     }
+
+    /* Gallery */
+    #gallery-portrait, #gallery-landscape {
+        grid-template-columns: repeat(3, auto);
+    }
 }
 
 /*Laptops and up - 992px plus*/
@@ -173,5 +226,10 @@ footer {
     main {
         /*Push main content down under header*/
         margin-top: 76px;
+    }
+
+    /* Gallery */
+    #gallery-portrait, #gallery-landscape {
+        grid-template-columns: repeat(4, auto);
     }
 }
