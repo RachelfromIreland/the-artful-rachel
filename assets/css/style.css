@@ -56,7 +56,6 @@ header a {
 
 #main-menu>li {
     margin-bottom: 1em;
-    font-family: 'Poppins', sans-serif;
 }
 
 .active {
@@ -92,10 +91,9 @@ nav {
 /*Main Content*/
 main {
     background-color: whitesmoke;
-    width: 100%;
     /*Push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 60px;
 }
 
 
@@ -121,6 +119,13 @@ footer {
 
 
 /*Media queries for responsive design*/
+
+/*Large or landscape phones (576 px and up)*/
+@media screen and (min-width: 576px) {
+    #logo {
+        font-size: 180%;
+    }
+}
 /*Tablets and up - 768px plus*/
 @media screen and (min-width: 768px) {
     /*Header*/
@@ -132,12 +137,11 @@ footer {
         padding-right: 1rem;
     }
 
-    #menu {
+    #main-menu {
         display: flex;
-        flex-direction: row;
     }
 
-    #menu > li {
+    #main-menu > li {
         padding-left: 1rem;
     }
 
@@ -146,7 +150,7 @@ footer {
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     } 
@@ -154,6 +158,20 @@ footer {
     /*Main content*/
     main {
         /*Push main content down under header*/
-        margin-top: 79px;
+        margin-top: 75px;
+    }
+}
+
+/*Laptops and up - 992px plus*/
+@media screen and (min-width: 992px) {
+
+    #logo {
+        font-size:280%;
+    }
+
+    /*Main content*/
+    main {
+        /*Push main content down under header*/
+        margin-top: 76px;
     }
 }
