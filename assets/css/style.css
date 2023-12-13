@@ -332,10 +332,63 @@ main {
     margin-top: 20px;
 }
 
+/*Thank you page*/
+
+.thanks-bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.thanks-main {
+    background-color: rgba(25, 46, 37, .6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    z-index: 2;
+}
+
+.thanks-heading {
+    color: whitesmoke;
+    font-size: 180%;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-family: "Charmonman", sans-serif;
+}
+
+.thanks-text {
+    display: flex;
+    text-align: center;
+    margin: 16px;
+    flex-direction: column;
+    padding: 50px;
+    color: whitesmoke;
+}
+  
+.thanks-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 180%;
+    width: 100%;
+    color: whitesmoke;
+}
+  
+.thanks-message {
+    max-width: 93%;
+    margin: 2rem auto;
+} 
+
 /*Footer*/
 footer {
     background-color: #192e25;
     width: 100%;
+    z-index: 99;
 }
 
 #footer-icons {
