@@ -52,7 +52,8 @@ When the palette menu is clicked, there is a dropdown menu with the links in the
 - Describes the artist and their style.
 - Shows live event dates and info.
 - Invites users to fill out the commission form.
-    HOME PAGE SCREENSHOT HERE
+ 
+ ![Home Page Screenshot](documents/Home-Page.jpg)
 
 ### Banner Section
 The Banner section has a fixed background image.
@@ -99,6 +100,8 @@ The footer contains social media links that open in a new tab.
 - The description contains the name of the artwork, the medium used and the surface it was painted on.
 - It has a footer which is identical to the home page's footer.
 
+![Gallery Page](documents/Gallery.jpg)
+
 ## Commission page
 The Commission page contains a contact form:
 - All text input fields are customized.
@@ -107,11 +110,15 @@ The Commission page contains a contact form:
 - The text inputs, dropdown and submit button are animated on hover.
 - The page is responsive on all common screen sizes.
 - The submit button leads to the Thank You page. 
+
+![Commissions Page](documents/Commissions.jpg)
+
 ## Thank You Page
 - The Thank You page appears after submitting the commission form.
 - It contains a thank you message with some additional information about order times.
 - There is a button below the message which brings the user back to the home page.
 
+![Thank You Page](documents/Thanks-Page.JPG)
 
 
 # Technologies Used
@@ -131,7 +138,7 @@ GitHub was used to host the code of the website.
 
 # Design
 ## Color Scheme
-The project uses a limited color scheme, found [here](https://looka.com/blog/12-fall-color-palettes/).  The chosen palette was number 12 – Idle Afternoon, with the two colors specifically being #979f83 and #192e25.  These were converted to RGBA for when transparency was needed.  These colors were chosen as they were warm and inviting, and will not clash with any of the artwork.
+The project uses a limited color scheme, found [here](https://looka.com/blog/12-fall-color-palettes/).  The chosen palette was number 12 – Idle Afternoon, with the two colors specifically being `#979f83` and `#192e25`.  These were converted to RGBA for when transparency was needed.  These colors were chosen as they were warm and inviting, and will not clash with any of the artwork.
 
 ![Color Scheme image](documents/Colours.JPG)
 
@@ -155,10 +162,10 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 
 ### Validator Testing
 HTML
-- Two errors were found and left in the project after being put through the official W3C validator.  These are explained below in the 'Future Improvements' Section.
+- Two errors were found and left in the project after being put through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  These are explained below in the 'Future Improvements' Section.
 
 CSS
-- No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/)
 
 
 # Deployment
