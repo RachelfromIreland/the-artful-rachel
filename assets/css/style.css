@@ -29,6 +29,10 @@ h3 {
 
 /*Header - Influenced with responsiveness by CI Love Running Project*/
 
+#logo {
+    font-size: 130%;
+}
+
 header {
     background-color: #979f83;
     width: 100%;
