@@ -27,7 +27,7 @@ h3 {
     letter-spacing: 2px;
 }
 
-/*Header*/
+/*Header - Influenced with responsiveness by CI Love Running Project*/
 
 header {
     background-color: #979f83;
@@ -73,7 +73,7 @@ nav {
     top: 100%;
 }
 
-/*Nav toggle*/
+/*Nav toggle - Learned from CI Love Running Project*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -112,7 +112,7 @@ main {
 }
 
 
-/*Text in the Banner Section*/
+/*Text in the Banner Section - Styling influenced by mentor Julia Konovalova's Animal Shelter Project*/
 
 .banner-text {
     display: flex;
@@ -145,6 +145,56 @@ main {
     font-family: "Poppins", sans-serif;
 }
 
+/*Style section*/
+.banner {
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.style-text {
+    display: flex;
+    text-align: center;
+    margin: 16px;
+    flex-direction: column;
+    padding: 50px;
+    color: #192e25;
+}
+  
+.style-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 150%;
+    width: 100%;
+    color: #192e25;
+}
+  
+.style-about {
+    max-width: 95%;
+    margin: 40px auto;
+} 
+/*Image container*/
+#style-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+.style-img { 
+    position: relative;
+    margin: 10px; 
+   } 
+    
+   /* Image Text */ 
+   .style-img div{ 
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    background: rgba(25, 46, 37, .6); 
+    color: whitesmoke; 
+    margin-bottom: 5px; 
+    font-family: "Poppins", sans-serif;
+    padding: 5px; 
+   } 
 
 /*Art Gallery Page*/
 
@@ -155,10 +205,8 @@ main {
 }
 
 /* Images */ 
-.gallery-img{ 
+.gallery-img { 
     position: relative;
-    /*width: 100%;
-    height: 100%;*/ 
     margin: 10px; 
    } 
     
@@ -175,7 +223,7 @@ main {
     visibility: hidden; 
    } 
     
-   /* Code making text appear while hovering */ 
+   /* Code making text appear while hovering - Adapted from Kevin Powell on YouTube */ 
    .gallery-img:hover:hover{ 
     cursor: pointer; 
    } 
@@ -195,7 +243,7 @@ main {
     position: relative;
    }
 
-/* Signup Page*/
+/* Commission Page - Styling influenced by CI Love Running Project*/
 main {
     flex: 1 0 auto;
     margin-top: 47px;
@@ -366,6 +414,22 @@ footer {
         margin: 2rem auto;
     } 
 
+    /*Style Section*/
+    .style-title {
+        font-family: "Charmonman", sans-serif;
+        font-size: 180%;
+        width: 100%;
+    }
+      
+    .style-about {
+        max-width: 80%;
+        margin: 30px auto;
+    } 
+
+    #style-row {
+        grid-template-columns: repeat(4, auto);
+        }
+
     /* Gallery */
     #gallery-portrait, #gallery-landscape {
         grid-template-columns: repeat(3, auto);
@@ -396,11 +460,21 @@ footer {
         font-family: "Charmonman", sans-serif;
         font-size: 300%;
         width: 100%;
-        color: whitesmoke;
     }
       
     .banner-about {
         max-width: 93%;
+    } 
+
+    /*Style Section*/
+    .style-title {
+        font-family: "Charmonman", sans-serif;
+        font-size: 250%;
+        width: 100%;
+    }
+      
+    .style-about {
+        max-width: 95%;
     } 
 
     /* Gallery */
