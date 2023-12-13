@@ -162,7 +162,7 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 
 ### Validator Testing
 HTML
-- Two errors were found and left in the project after being put through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  These are explained below in the 'Future Improvements' Section.
+- One error was found and left in the project after being put through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  This is explained below in the 'Future Improvements' Section.
 
 CSS
 - No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/)
@@ -183,8 +183,9 @@ git clone https://github.com/RachelfromIreland/the-artful-rachel.git
 
 # Future improvements
 - Image placement: One of the errors flagged in the HTML coding was that the "height" and "width" of the images on the Home and Gallery pages should have a number but a percentage is listed.  I tried several times to fix this but just made things worse.  I decided to leave this code as is with the hope of fixing it in the future with some help.
-- Button elements: The second error I left was the button element being nestled within an anchor element.  I changed this to remove the anchor element but just got different errors so am leaving it as is for now.
+
 - Commit messages.  I’m very new to coding and feel I can commit more frequently with more descriptive messages.
+
 - Work more closely with a mentor for guidance.  I was assigned a new mentor (at my request) before submitting the project so the final project has not been checked by a mentor.  I’m sure there are some areas I could have done better.
 # Disclaimer:
 The reason a couple of errors were left in and for my mentor change is because of recent health issues.  This has been discussed with Student Care and I am feeling supported.  The timing of this first project and the fact I've already been granted an extension just mean I am too late to ask for help to fix the errors I found.  I will do much better with this in the future.
