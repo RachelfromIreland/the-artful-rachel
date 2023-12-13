@@ -143,6 +143,7 @@ main {
     padding: 15px 32px;
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 /*Style section*/
@@ -181,7 +182,7 @@ main {
 
 .style-img { 
     position: relative;
-    margin: 10px; 
+    margin: 10px;
    } 
     
 /* Image Text */ 
@@ -360,10 +361,16 @@ main {
     text-align: center;
 }
 
+#surface {
+    padding: 15px;
+}
+
 .radio-buttons {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    align-items: start;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .text-area {
