@@ -148,8 +148,8 @@ main {
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
-    display: flex;
-    align-self: center;
+    /*display: flex;
+    align-self: center;*/
     border: 2px solid;
 }
 
