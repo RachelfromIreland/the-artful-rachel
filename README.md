@@ -56,7 +56,7 @@ Directly below the banner is an information section that contains:
 - Entices viewers to consider ordering a piece of custom artwork.
 
 ### Events Section
-- Events section has four upcoming events and one ongoing event, gallery showings, art sales and a paint-along session.
+- The Events section has four upcoming events and one ongoing event, gallery showings, art sales and a paint-along session.
 - Each box has an icon displayed with the text.
 - Each box has the address and date of the event listed.
 - Each box is transparent and situated on a background image.
@@ -74,7 +74,7 @@ The footer contains social media links that open in a new tab.
 - It has a button after the description that leads to the commission page.
 - It has photos of past artworks completed by the artist and serves as a virtual gallery.
 - The gallery is responsive, the amount of columns will depend on the user’s screen size.
-- Each image has a description of the artwork that can be seen when the user hovers a mouse over the image; or taps when on mobile or tablet.
+- Each image has a description of the artwork that can be seen when the user hovers a mouse over the image; or taps when on a mobile or tablet.
 - The description contains the name of the artwork, the medium used and the surface it was painted on.
 - It has a footer which is identical to the home page's footer.
 
@@ -88,7 +88,7 @@ The Commission page contains a contact form:
 - The submit button leads to the Thank You page. 
 ## Thank You Page
 - The Thank You page appears after submitting the commission form.
-- It contains the thank you message with some additional information about order times.
+- It contains a thank you message with some additional information about order times.
 - There is a button below the message which brings the user back to the home page.
 
 
@@ -113,7 +113,7 @@ GitHub was used to host the code of the website.
 The project uses a limited color scheme, found [here](https://looka.com/blog/12-fall-color-palettes/).  The chosen palette was number 12 – Idle Afternoon, with the two colors specifically being #979f83 and #192e25.  These were converted to RGBA for when transparency was needed.  These colors were chosen as they were warm and inviting, and will not clash with any of the artwork.
 ## Typography
 ### Main Font
-Poppins from Google Fonts was used as the main font of the website in order to increase easy readability of the content on the pages.
+Poppins from Google Fonts is the main font of the website to increase the readability of the content on the pages.
 ### Logo Font
 Charmonman from Google Fonts was used to attract viewers' attention to the artist’s logo.  It was chosen as it looks handwritten and matches the theme of the site.
 
@@ -126,7 +126,7 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 
 ### Validator Testing
 HTML
-- No errors were returned when passing through the official W3C validator
+- Two errors were found and left in the project after being put through the official W3C validator.  These are explained below in the 'Future Improvements' Section.
 
 CSS
 - No errors were found when passing through the official (Jigsaw) validator
@@ -146,8 +146,13 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 git clone https://github.com/RachelfromIreland/the-artful-rachel.git
 
 # Future improvements
-- Commit messages.  I’m very new to coding and definitely feel I can commit more frequently with more descriptive messages.
-- Work more closely with a mentor for guidance.  I was assigned a new mentor (at my own request) before submitting the project and so the final project has not been checked by a mentor.  I’m sure there are some areas I could have done better.
+- Image placement: One of the errors flagged in the HTML coding was that the "height" and "width" of the images on the Home and Gallery pages should have a number but a percentage is listed.  I tried several times to fix this but just made things worse.  I decided to leave this code as is with the hope of fixing it in the future with some help.
+- Button elements: The second error I left was the button element being nestled within an anchor element.  I changed this to remove the anchor element but just got different errors so am leaving it as is for now.
+- Commit messages.  I’m very new to coding and feel I can commit more frequently with more descriptive messages.
+- Work more closely with a mentor for guidance.  I was assigned a new mentor (at my request) before submitting the project so the final project has not been checked by a mentor.  I’m sure there are some areas I could have done better.
+# Disclaimer:
+The reason a couple of errors were left in and for my mentor change is because of recent health issues.  This has been discussed with Student Care and I am feeling supported.  The timing of this first project and the fact I've already been granted an extension just mean I am too late to ask for help to fix the errors I found.  I will do much better with this in the future.
+
 # Credits
 ## Content
 Inspiration for the footer as well as style elements cited within the code come from Code Institute’s Love Running project. 
