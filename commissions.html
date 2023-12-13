@@ -41,7 +41,70 @@
         </nav>
     </header>
 
-    <main>Main</main>
+    <main>
+        <!-- Banner Image and Text -->
+        <section class="banner-main">
+            <div class="banner-image-comm"></div>
+            <div class="banner-text">
+              <h2 class="banner-title">The Artful Rachel <i class="fa-solid fa-paintbrush"></i></h2>
+              <div class="banner-about">
+                <p>
+                  Order custom artwork here!  Please include as much detail as you can, the more the better!
+                </p>
+              </div>
+            </div>
+          </section>
+
+        <section id="commissions">
+            <form method="get" action="thanks.html" id="commission-form">
+                <h2><i class="fa-solid fa-brush"></i> Let's order some art!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required>
+                <br>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" class="text-input" required>
+                <br>
+
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required>
+                <br>
+
+                <label for="medium"><h3>Choose a paint medium:</h3></label>
+                <select name="medium" id="medium" required>
+                    <option value="oil">Oil</option>
+                    <option value="acrylic">Acrylic</option>
+                    <option value="watercolour">Watercolour</option>
+                    <option value="gouache">Gouache</option>
+                </select> 
+                <br>
+
+                <label for="surface"><h3>Choose a surface:</h3></label>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="canvas">Canvas</label>
+                        <input type="radio" name="surface-preference" id="canvas" value ="canvas" required checked>
+                    </div>
+                    <div>
+                        <label for="paper">Paper</label>
+                        <input type="radio" name="surface-preference" id="paper" value="paper" required>
+                    </div>
+                </div>
+            
+                <label for="description"><h3>Describe the artwork you have in mind:</h3></label><br>
+                <textarea id="description" name="description" class="text-area" placeholder="Be as detailed as you can!" required></textarea> 
+                <br>
+
+                <button type="submit" class="order-button">Place Order</button>
+           
+            </form>
+        </section>
+
+
+
+    </main>
+    
+    </main>
 
     <footer>
         <ul id="footer-icons">
