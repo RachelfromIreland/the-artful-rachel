@@ -393,6 +393,20 @@ main {
     margin-top: 20px;
 }
 
+#medium:hover {
+    background-color: #979f83;
+    color: whitesmoke;
+}
+
+.order-button:hover {
+    background-color: #979f83;
+    color: whitesmoke;
+}
+
+.text-input:hover, .text-area:hover {
+    border-color: #192e25;
+}
+
 /*Thank you page*/
 
 .thanks-bg {
