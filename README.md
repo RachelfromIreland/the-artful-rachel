@@ -188,7 +188,7 @@ git clone https://github.com/RachelfromIreland/the-artful-rachel.git
 
 - Work more closely with a mentor for guidance.  I was assigned a new mentor (at my request) before submitting the project so the final project has not been checked by a mentor.  I’m sure there are some areas I could have done better.
 # Disclaimer:
-The reason a couple of errors were left in and for my mentor change is because of recent health issues.  This has been discussed with Student Care and I am feeling supported.  The timing of this first project and the fact I've already been granted an extension just mean I am too late to ask for help to fix the errors I found.  I will do much better with this in the future.
+The reason an error was left in and for my mentor change is because of recent health issues.  This has been discussed with Student Care and I am feeling supported.  The timing of this first project and the fact I've already been granted an extension just mean I am too late to ask for help to fix the errors I found.  I will do much better with this in the future.
 
 # Credits
 ## Content
