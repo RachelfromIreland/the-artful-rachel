@@ -196,7 +196,7 @@ main {
     padding: 5px; 
    } 
 
-/*Events Section*/
+/*Events Section - Idea for grid over background image from CI Love Running Project*/
 
 #event-banner {
     width: 100%;
@@ -327,7 +327,7 @@ main {
 
 #commission-form {
     color: whitesmoke;
-    background-color: rgba(60, 0, 100, .6);
+    background-color: rgba(25, 46, 37, .6);
     padding: 30px;
 }
 
@@ -350,7 +350,7 @@ main {
 #medium {
     position: relative;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(60, 0, 100);
+    background-color: #192e25;
     color: whitesmoke;
     border-radius: 2px;
     font-size: 100%;
@@ -385,7 +385,7 @@ main {
 
 
 .order-button {
-    background-color: rgb(60, 0, 100);
+    background-color: #192e25;
     color: whitesmoke;
     border-radius: 2px;
     font-size: 100%;
