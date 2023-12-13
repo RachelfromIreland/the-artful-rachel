@@ -146,7 +146,7 @@ main {
 }
 
 /*Style section*/
-.banner {
+.style {
     width: auto;
     background-color: whitesmoke;
 }
@@ -184,8 +184,8 @@ main {
     margin: 10px; 
    } 
     
-   /* Image Text */ 
-   .style-img div{ 
+/* Image Text */ 
+.style-img div{ 
     position: absolute;
     bottom: 0; 
     right: 0; 
@@ -195,6 +195,67 @@ main {
     font-family: "Poppins", sans-serif;
     padding: 5px; 
    } 
+
+/*Events Section*/
+
+#event-banner {
+    width: 100%;
+    text-align: center;
+    background-color: #192e25;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#event-banner h2 {
+    font-family: "Charmonman", sans-serif;
+    margin-bottom: 20px;
+}
+
+#event-banner p {
+    margin-bottom: 20px;
+}
+
+#event-dates {
+    background: url('../images/Autumnal-Pattern.jpg') no-repeat center/cover;
+}
+
+#event-dates div {
+    background-color: rgba(25, 46, 37, .6);
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Contact Section*/
+
+.contact {
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.contact-text {
+    display: flex;
+    text-align: center;
+    margin: 16px;
+    flex-direction: column;
+    padding: 30px;
+    color: #192e25;
+}
+  
+.contact-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 150%;
+    width: 100%;
+    color: #192e25;
+}
+  
+.contact-info {
+    max-width: 95%;
+    margin: 25px auto;
+} 
 
 /*Art Gallery Page*/
 
@@ -483,6 +544,12 @@ footer {
         grid-template-columns: repeat(4, auto);
         }
 
+    /*Event Section*/
+    #event-dates {
+        flex-direction: row;
+        display: flex;
+    }
+
     /* Gallery */
     #gallery-portrait, #gallery-landscape {
         grid-template-columns: repeat(3, auto);
@@ -500,6 +567,11 @@ footer {
     main {
         /*Push main content down under header*/
         margin-top: 76px;
+    }
+
+    /*Menu hover animation*/
+    #main-menu a:hover {
+        border-bottom: 4px solid #192e25;
     }
 
     /*Banner*/
