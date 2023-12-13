@@ -24,7 +24,6 @@ h1 {
 h2,
 h3 {
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -100,15 +99,15 @@ main {
 
 .banner-main {
     width: auto;
-    background-color: var(--clr-primary-900);
+    background-color: #192e25;
 }
   
 /*Banner image*/
   
 .banner-image {
-    height: 600px;
+    height: 50vh;
     width: 100%;
-    background-image: url("assets/images/Background-Image.jpg") no-repeat center center/cover;
+    background: url("../images/Background-Image.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -121,12 +120,14 @@ main {
     margin: 16px;
     flex-direction: column;
     padding: 50px;
+    color: whitesmoke;
 }
   
 .banner-title {
     font-family: "Charmonman", sans-serif;
-    font-size: 300%;
+    font-size: 180%;
     width: 100%;
+    color: whitesmoke;
 }
   
 .banner-about {
@@ -247,6 +248,17 @@ footer {
         margin-top: 75px;
     }
 
+    .banner-title {
+        font-family: "Charmonman", sans-serif;
+        font-size: 200%;
+        width: 100%;
+    }
+      
+    .banner-about {
+        max-width: 80%;
+        margin: 2rem auto;
+    } 
+
     /* Gallery */
     #gallery-portrait, #gallery-landscape {
         grid-template-columns: repeat(3, auto);
@@ -266,8 +278,26 @@ footer {
         margin-top: 76px;
     }
 
+    /*Banner*/
+    .banner-image {
+        height: 600px;
+    }
+
+    /*Text in the Banner Section*/
+      
+    .banner-title {
+        font-family: "Charmonman", sans-serif;
+        font-size: 300%;
+        width: 100%;
+        color: whitesmoke;
+    }
+      
+    .banner-about {
+        max-width: 93%;
+    } 
+
     /* Gallery */
     #gallery-portrait, #gallery-landscape {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(5, auto);
     }
 }
