@@ -148,7 +148,16 @@ main {
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    display: flex;
+    align-self: center;
+    border: 2px solid;
 }
+
+  .button:hover {
+    background: whitesmoke;
+    color: #979f83;
+    border-color: #979f83;
+  }*/
 
 /*Style section*/
 .style {
@@ -601,7 +610,7 @@ footer {
 
     /*Banner*/
     .banner-image, .banner-image-comm {
-        height: 600px;
+        height: 300px;
     }
 
     /*Text in the Banner Section*/
