@@ -462,7 +462,7 @@ main {
 
 .thanks-heading {
   color: whitesmoke;
-  font-size: 180%;
+  font-size: 150%;
   justify-content: center;
   letter-spacing: 2px;
   font-family: "Charmonman", sans-serif;
@@ -473,7 +473,7 @@ main {
   text-align: center;
   margin: 16px;
   flex-direction: column;
-  padding: 50px;
+  padding: 15px;
   color: whitesmoke;
 }
 
@@ -494,6 +494,7 @@ footer {
   background-color: #192e25;
   width: 100%;
   z-index: 99;
+  bottom: 0;
 }
 
 #footer-icons {
@@ -516,6 +517,10 @@ footer {
 @media screen and (min-width: 576px) {
   #logo {
     font-size: 180%;
+  }
+
+  .thanks-text {
+    padding: 50px;
   }
 }
 /*Tablets and up - 768px plus*/
