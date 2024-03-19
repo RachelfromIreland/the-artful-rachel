@@ -181,14 +181,14 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 | ---| ---|
 | The gallery and homepage images were showing errors in the validator due to their height and width values. | Solution: Moved the styling for these images to CSS |
 | The images in the gallery were not showing in full and the images exceeded the screen width. | Updated CSS grid in the stylesheet to have columns fill the available space and added margins and padding where needed.  Resized all image files so they were the width of the container to prevent images from appearing cropped or overlapped. |
-|  |  |
+| When viewing the Thank You message on mobile part of the button to return to the homepage was obscured by the footer. | Changed padding on mobile from 50px to 15px so text took up less room and button appeared above footer.  Added media query for original padding on large phones and above. |
 
 #### Unsolved Bugs
 No unsolved bugs were detected after testing.
 
 ### Validator Testing
 HTML
-- No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  A screenshot of the results for the [Homepage](/documents/html-validator-screenshot.png), [Gallery](/documents/gallery-validator-screenshot.png) and [Commissions](/documents/form-validator-screenshot.png) have been uploaded.
+- No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  Screenshots of the results for the [Homepage](/documents/html-validator-screenshot.png), [Gallery](/documents/gallery-validator-screenshot.png), [Commissions](/documents/form-validator-screenshot.png) and [Thank You Message](/documents/thanks-validator-screenshot.png) have been uploaded.
 
 CSS
 - No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/)
