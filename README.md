@@ -8,18 +8,18 @@ The site can be accessed by this [link](https://rachelfromireland.github.io/the-
 
 # User Stories
 ### First Time Visitor Goals:
-As a First Time Visitor, I want to understand the site’s main purpose at a glance, so I can learn more about the artist.
-As a First Time Visitor, I want the site to be easy to read and intuitive to navigate to avoid leaving because it is frustrating and instead have a pleasant user experience.
-As a First Time Visitor, I want to see examples of previous artwork, so I can gauge the quality for myself before considering ordering.
+- As a First Time Visitor, I want to understand the site’s main purpose at a glance, so I can learn more about the artist.
+- As a First Time Visitor, I want the site to be easy to read and intuitive to navigate to avoid leaving because it is frustrating and instead have a pleasant user experience.
+- As a First Time Visitor, I want to see examples of previous artwork, so I can gauge the quality for myself before considering ordering.
 
 ### Returning Visitor Goals:
-As a Returning Visitor, I want to see an easy-to-read and complete form to purchase my own custom artwork.
-As a Returning Visitor, I want to see information about artwork, so I can decide for myself which medium and surface I like best.
-As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask any questions I have via email without filling in the commission form.
-As a Returning Visitor, I want to find links to the artist’s social media, so I can see even more up-to-date artwork.
+- As a Returning Visitor, I want to see an easy-to-read and complete form to purchase custom artwork.
+- As a Returning Visitor, I want to see information about artwork, so I can decide for myself which medium and surface I like best.
+- As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask any questions I have via email without filling in the commission form.
+- As a Returning Visitor, I want to find links to the artist’s social media, so I can see even more up-to-date artwork.
 
 ### Frequent Visitor Goals:
-As a Frequent User, I want to be able to see updated live events and an updated gallery page showing the artist cares about the website and keeping things up to date.
+- As a Frequent User, I want to be able to see updated live events and an updated gallery page showing the artist cares about the website and keeping things up to date.
 
 # Features
 
@@ -173,6 +173,7 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 - I have used DevTools to confirm that the project is responsive and looks good on all standard screen sizes.
 - I have proofread all the text and checked that elements are easy to read and understand.
 - I have tested the commission form and confirmed the animated elements work.  I have also checked to ensure the Thank You page is loaded after the user hits the submit button.
+- User Goals were kept in mind while testing and the project meets all goals.
 
 ### Bugs
 #### Solved Bugs
