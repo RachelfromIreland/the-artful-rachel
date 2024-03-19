@@ -188,7 +188,7 @@ No unsolved bugs were detected after testing.
 
 ### Validator Testing
 HTML
-- No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  
+- No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  A screenshot of the results for the [Homepage](/documents/html-validator-screenshot.png), [Gallery](/documents/gallery-validator-screenshot.png) and [Commissions](/documents/form-validator-screenshot.png) have been uploaded.
 
 CSS
 - No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/)
@@ -226,5 +226,5 @@ All the images for the website are the author’s own.
 # Tools
 - W3Schools was a huge help for me in understanding how to make the things I wanted to code more readable.
 - Paint 3D was used to resize images.
-- [Wireframe.cc](https://wireframe.cc/) was used to create the wireframes.
+- [Wireframe cc](https://wireframe.cc/) was used to create the wireframes.
 
