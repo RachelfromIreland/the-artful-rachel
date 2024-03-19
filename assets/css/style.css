@@ -182,6 +182,7 @@ main {
   margin: 40px auto;
 }
 /*Image container*/
+/* Calc for repeat learned from Aidan K McBride - link in README*/
 #style-row {
   display: grid;
   justify-content: space-between;
