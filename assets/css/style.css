@@ -270,13 +270,13 @@ main {
 
 /*Image container*/
 #gallery-images {
-  max-width: 100vh;
+  width: 100%;
 }
 #gallery-portrait,
 #gallery-landscape {
   display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 15px;
   margin: 0 auto;
 }
@@ -286,6 +286,9 @@ main {
   position: relative;
   margin: 10px;
   padding: 5px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Floating Text */
