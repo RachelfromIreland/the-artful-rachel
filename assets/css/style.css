@@ -185,12 +185,15 @@ main {
 #style-row {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin: 10px;
 }
 
 .style-img {
   position: relative;
   margin: 10px;
+  width: 100%;
+  height: auto;
 }
 
 /* Image Text */
