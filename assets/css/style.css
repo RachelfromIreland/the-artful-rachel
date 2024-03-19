@@ -270,24 +270,22 @@ main {
 
 /*Image container*/
 #gallery-images {
-  width: 100%;
+  padding: 10px;
 }
+
 #gallery-portrait,
 #gallery-landscape {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 15px;
-  margin: 0 auto;
+  grid-gap: 10px;
+  margin: 10px auto;
 }
 
 /* Images */
 .gallery-img {
   position: relative;
-  margin: 10px;
-  padding: 5px;
   width: 100%;
-  max-width: 100%;
   height: auto;
 }
 
@@ -513,16 +511,6 @@ footer {
   #logo {
     font-size: 180%;
   }
-
-  /*Gallery Page*/
-  /*  #gallery-portrait,
-  #gallery-landscape {
-    grid-template-columns: repeat(2, auto);
-  }
-
-  .gallery-img {
-    width: calc(100% / 2 - 15px);
-  }*/
 }
 /*Tablets and up - 768px plus*/
 @media screen and (min-width: 768px) {
@@ -591,16 +579,6 @@ footer {
     flex-direction: row;
     display: flex;
   }
-
-  /* Gallery */
-  /*#gallery-portrait,
-  #gallery-landscape {
-    grid-template-columns: repeat(3, auto);
-  }
-
-  .gallery-img {
-    width: calc(100% / 3 - 15px);
-  }*/
 }
 
 /*Laptops and up - 992px plus*/
@@ -648,14 +626,4 @@ footer {
   .style-about {
     max-width: 95%;
   }
-
-  /* Gallery */
-  /*#gallery-portrait,
-  #gallery-landscape {
-    grid-template-columns: repeat(5, auto);
-  }
-
-  .gallery-img {
-    width: calc(100% / 5 - 15px);
-  }*/
 }
