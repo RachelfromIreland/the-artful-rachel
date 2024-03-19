@@ -1,641 +1,658 @@
 /*Import for Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Poppins:wght@100;200;300;400;500&display=swap");
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*General Styles*/
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-    font-family: 'Charmonman', sans-serif;
-    letter-spacing: 5px;
+  font-family: "Charmonman", sans-serif;
+  letter-spacing: 5px;
 }
 
 h2,
 h3 {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
 }
 
 /*Header - Influenced with responsiveness by CI Love Running Project*/
 
 #logo {
-    font-size: 130%;
+  font-size: 130%;
 }
 
 header {
-    background-color: #979f83;
-    width: 100%;
-    position: fixed;
-    z-index: 99;
-    box-shadow: 0 2px 2px #192e25;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 0 2rem;
+  background-color: #979f83;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 2px 2px #192e25;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 2rem;
 }
 
 header a {
-    text-decoration: none;
-    color: #192e25;
+  text-decoration: none;
+  color: #192e25;
 }
 
 #main-menu {
-    font-size: 120%;
-    letter-spacing: 5px;
-    list-style-type: none;
-
+  font-size: 120%;
+  letter-spacing: 5px;
+  list-style-type: none;
 }
 
-#main-menu>li {
-    margin-bottom: 1em;
+#main-menu > li {
+  margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 3px solid #192e25;
+  border-bottom: 3px solid #192e25;
 }
 
 /*Nav styles*/
 nav {
-    position: absolute;
-    background-color: #979f83;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #192e25;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #979f83;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #192e25;
+  display: none;
+  top: 100%;
 }
 
 /*Nav toggle - Learned from CI Love Running Project*/
-#nav-toggle:checked~nav {
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 /*Main Content*/
 main {
-    background-color: whitesmoke;
-    /*Push footer down*/
-    flex: 1 0 auto;
-    margin-top: 60px;
+  background-color: whitesmoke;
+  /*Push footer down*/
+  flex: 1 0 auto;
+  margin-top: 60px;
 }
 
 /*Banner Section*/
 
 .banner-main {
-    width: auto;
-    background-color: #192e25;
-}
-  
-/*Banner image*/
-  
-.banner-image {
-    height: 50vh;
-    width: 100%;
-    background: url("../images/Background-Image.jpg") no-repeat center center/cover;
-    position: relative;
+  width: auto;
+  background-color: #192e25;
 }
 
+/*Banner image*/
+
+.banner-image {
+  height: 50vh;
+  width: 100%;
+  background: url("../images/Background-Image.jpg") no-repeat center
+    center/cover;
+  position: relative;
+}
 
 /*Text in the Banner Section - Styling influenced by mentor Julia Konovalova's Animal Shelter Project*/
 
 .banner-text {
-    display: flex;
-    text-align: center;
-    margin: 16px;
-    flex-direction: column;
-    padding: 50px;
-    color: whitesmoke;
+  display: flex;
+  text-align: center;
+  margin: 16px;
+  flex-direction: column;
+  padding: 50px;
+  color: whitesmoke;
 }
-  
+
 .banner-title {
-    font-family: "Charmonman", sans-serif;
-    font-size: 180%;
-    width: 100%;
-    color: whitesmoke;
+  font-family: "Charmonman", sans-serif;
+  font-size: 180%;
+  width: 100%;
+  color: whitesmoke;
 }
-  
+
 .banner-about {
-    max-width: 93%;
-    margin: 2rem auto;
-} 
+  max-width: 93%;
+  margin: 2rem auto;
+}
 
 .button {
-    background-color: #979f83;
-    color: whitesmoke;
-    border-radius: 2px;
-    font-size: 100%;
-    padding: 15px 32px;
-    margin-top: 20px;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-    border: 2px solid;
+  background-color: #979f83;
+  color: whitesmoke;
+  border-radius: 2px;
+  font-size: 100%;
+  padding: 15px 32px;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: 2px solid;
 }
 
-  .button:hover {
-    background: whitesmoke;
-    color: #979f83;
-    border-color: #979f83;
-  }
+.button:hover {
+  background: whitesmoke;
+  color: #979f83;
+  border-color: #979f83;
+}
 
 /*Style section*/
 .style {
-    width: auto;
-    background-color: whitesmoke;
+  width: auto;
+  background-color: whitesmoke;
 }
 
 .style-text {
-    display: flex;
-    text-align: center;
-    margin: 16px;
-    flex-direction: column;
-    padding: 50px;
-    color: #192e25;
+  display: flex;
+  text-align: center;
+  margin: 16px;
+  flex-direction: column;
+  padding: 50px;
+  color: #192e25;
 }
-  
+
 .style-title {
-    font-family: "Charmonman", sans-serif;
-    font-size: 150%;
-    width: 100%;
-    color: #192e25;
+  font-family: "Charmonman", sans-serif;
+  font-size: 150%;
+  width: 100%;
+  color: #192e25;
 }
-  
+
 .style-about {
-    max-width: 95%;
-    margin: 40px auto;
-} 
+  max-width: 95%;
+  margin: 40px auto;
+}
 /*Image container*/
 #style-row {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, auto);
-
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, auto);
 }
 
-.style-img { 
-    position: relative;
-    margin: 10px;
-   } 
-    
-/* Image Text */ 
-.style-img div{ 
-    position: absolute;
-    bottom: 0; 
-    right: 0; 
-    background: rgba(25, 46, 37, .6); 
-    color: whitesmoke; 
-    margin-bottom: 5px; 
-    font-family: "Poppins", sans-serif;
-    padding: 5px; 
-   } 
+.style-img {
+  position: relative;
+  margin: 10px;
+}
+
+/* Image Text */
+.style-img div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(25, 46, 37, 0.6);
+  color: whitesmoke;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+}
 
 /*Events Section - Idea for grid over background image from CI Love Running Project*/
 
 #event-banner {
-    width: 100%;
-    text-align: center;
-    background-color: #192e25;
-    color: whitesmoke;
-    padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #192e25;
+  color: whitesmoke;
+  padding: 20px;
 }
 
 #event-banner h2 {
-    font-family: "Charmonman", sans-serif;
-    margin-bottom: 20px;
+  font-family: "Charmonman", sans-serif;
+  margin-bottom: 20px;
 }
 
 #event-banner p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #event-dates {
-    background: url('../images/Autumnal-Pattern.jpg') no-repeat center/cover;
+  background: url("../images/Autumnal-Pattern.jpg") no-repeat center/cover;
 }
 
 #event-dates div {
-    background-color: rgba(25, 46, 37, .6);
-    color: whitesmoke;
-    border: 3px solid whitesmoke;
-    text-align: center;
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding: 20px;
+  background-color: rgba(25, 46, 37, 0.6);
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+  text-align: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+  padding: 20px;
 }
 
 /* Contact Section*/
 
 .contact {
-    width: auto;
-    background-color: whitesmoke;
+  width: auto;
+  background-color: whitesmoke;
 }
 
 .contact-text {
-    display: flex;
-    text-align: center;
-    margin: 16px;
-    flex-direction: column;
-    padding: 30px;
-    color: #192e25;
+  display: flex;
+  text-align: center;
+  margin: 16px;
+  flex-direction: column;
+  padding: 30px;
+  color: #192e25;
 }
-  
+
 .contact-title {
-    font-family: "Charmonman", sans-serif;
-    font-size: 150%;
-    width: 100%;
-    color: #192e25;
+  font-family: "Charmonman", sans-serif;
+  font-size: 150%;
+  width: 100%;
+  color: #192e25;
 }
-  
+
 .contact-info {
-    max-width: 95%;
-    margin: 25px auto;
-} 
+  max-width: 95%;
+  margin: 25px auto;
+}
 
 /*Art Gallery Page*/
 
 /*Image container*/
-#gallery-portrait, #gallery-landscape {
-    display: grid;
-    justify-content: space-between;
+#gallery-images {
+  max-width: 100vh;
+}
+#gallery-portrait,
+#gallery-landscape {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
 }
 
-/* Images */ 
-.gallery-img { 
-    position: relative;
-    margin: 10px; 
-   } 
-    
-   /* Floating Text */ 
-   .gallery-img div{ 
-    position: absolute;
-    bottom: 0; 
-    right: 0; 
-    background: black; 
-    color: white; 
-    margin-bottom: 5px; 
-    font-family: "Poppins", sans-serif; 
-    opacity: 0; 
-    visibility: hidden; 
-   } 
-    
-   /* Code making text appear while hovering - Adapted from Kevin Powell on YouTube */ 
-   .gallery-img:hover:hover{ 
-    cursor: pointer; 
-   } 
-    
-   .gallery-img:hover div{ 
-    width: 150px; 
-    padding: 8px 15px; 
-    visibility: visible; 
-    opacity: 0.7;  
-   } 
+/* Images */
+.gallery-img {
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+}
 
-   /*Commission Form Page*/
-   .banner-image-comm {
-    height: 50vh;
-    width: 100%;
-    background: url("../images/Dreamy-Vista.jpg") no-repeat center center/cover;
-    position: relative;
-   }
+/* Floating Text */
+.gallery-img div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Code making text appear while hovering - Adapted from Kevin Powell on YouTube */
+.gallery-img:hover:hover {
+  cursor: pointer;
+}
+
+.gallery-img:hover div {
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
+/*Commission Form Page*/
+.banner-image-comm {
+  height: 50vh;
+  width: 100%;
+  background: url("../images/Dreamy-Vista.jpg") no-repeat center center/cover;
+  position: relative;
+}
 
 /* Commission Page - Styling influenced by CI Love Running Project*/
 main {
-    flex: 1 0 auto;
-    margin-top: 47px;
-    display: flex;
-    flex-direction: column;
+  flex: 1 0 auto;
+  margin-top: 47px;
+  display: flex;
+  flex-direction: column;
 }
 
 #commissions {
-    background-image: url("../images/Migrating-Duo.jpg");
-    background-size: cover;
-    background-position: 75%;
-    flex-grow: 1;
-    padding: 20px 10% 0 10%;
+  background-image: url("../images/Migrating-Duo.jpg");
+  background-size: cover;
+  background-position: 75%;
+  flex-grow: 1;
+  padding: 20px 10% 0 10%;
 }
 
 #commissions h2 {
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #commission-form {
-    color: whitesmoke;
-    background-color: rgba(25, 46, 37, .6);
-    padding: 30px;
+  color: whitesmoke;
+  background-color: rgba(25, 46, 37, 0.6);
+  padding: 30px;
 }
 
 #commission-form h2 {
-    color: whitesmoke;
-    margin-bottom: 20px;
+  color: whitesmoke;
+  margin-bottom: 20px;
 }
 
 .text-input {
-    background: transparent;
-    height: 25px;
-    width: 100%;
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
-    border-radius: 2px;
-    margin: 5px 0 20px 0;
-    padding: 0 5px;
+  background: transparent;
+  height: 25px;
+  width: 100%;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  margin: 5px 0 20px 0;
+  padding: 0 5px;
 }
 
 #medium {
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    background-color: #192e25;
-    color: whitesmoke;
-    border-radius: 2px;
-    font-size: 100%;
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #192e25;
+  color: whitesmoke;
+  border-radius: 2px;
+  font-size: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #surface {
-    padding: 15px;
+  padding: 15px;
 }
 
 .radio-buttons {
-    width: 100%;
-    display: flex;
-    align-items: start;
-    justify-content: space-around;
-    padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .text-area {
-    background: transparent;
-    height: 100px;
-    width: 100%;
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
-    border-radius: 2px;
-    margin: 5px 0 20px 0;
-    padding: 0 5px;
+  background: transparent;
+  height: 100px;
+  width: 100%;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  margin: 5px 0 20px 0;
+  padding: 0 5px;
 }
 
 .text-area::placeholder {
-    color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
 }
 
-
 .order-button {
-    background-color: #192e25;
-    color: whitesmoke;
-    border-radius: 2px;
-    font-size: 100%;
-    padding: 15px 32px;
-    margin-top: 20px;
+  background-color: #192e25;
+  color: whitesmoke;
+  border-radius: 2px;
+  font-size: 100%;
+  padding: 15px 32px;
+  margin-top: 20px;
 }
 
 #medium:hover {
-    background-color: #979f83;
-    color: whitesmoke;
+  background-color: #979f83;
+  color: whitesmoke;
 }
 
 .order-button:hover {
-    background-color: #979f83;
-    color: whitesmoke;
+  background-color: #979f83;
+  color: whitesmoke;
 }
 
-.text-input:hover, .text-area:hover {
-    border-color: #192e25;
+.text-input:hover,
+.text-area:hover {
+  border-color: #192e25;
 }
 
 /*Thank you page*/
 
 .thanks-bg {
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .thanks-main {
-    background-color: rgba(25, 46, 37, .6);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 85%;
-    z-index: 2;
+  background-color: rgba(25, 46, 37, 0.6);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  z-index: 2;
 }
 
 .thanks-heading {
-    color: whitesmoke;
-    font-size: 180%;
-    justify-content: center;
-    letter-spacing: 2px;
-    font-family: "Charmonman", sans-serif;
+  color: whitesmoke;
+  font-size: 180%;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-family: "Charmonman", sans-serif;
 }
 
 .thanks-text {
-    display: flex;
-    text-align: center;
-    margin: 16px;
-    flex-direction: column;
-    padding: 50px;
-    color: whitesmoke;
+  display: flex;
+  text-align: center;
+  margin: 16px;
+  flex-direction: column;
+  padding: 50px;
+  color: whitesmoke;
 }
-  
+
 .thanks-title {
-    font-family: "Charmonman", sans-serif;
-    font-size: 180%;
-    width: 100%;
-    color: whitesmoke;
+  font-family: "Charmonman", sans-serif;
+  font-size: 180%;
+  width: 100%;
+  color: whitesmoke;
 }
-  
+
 .thanks-message {
-    max-width: 93%;
-    margin: 2rem auto;
-} 
+  max-width: 93%;
+  margin: 2rem auto;
+}
 
 /*Footer*/
 footer {
-    background-color: #192e25;
-    width: 100%;
-    z-index: 99;
+  background-color: #192e25;
+  width: 100%;
+  z-index: 99;
 }
 
 #footer-icons {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #footer-icons i {
-    font-size: 150%;
-    padding: 5%;
-    color: #979f83;
+  font-size: 150%;
+  padding: 5%;
+  color: #979f83;
 }
-
 
 /*Media queries for responsive design*/
 
 /*Large or landscape phones (576 px and up)*/
 @media screen and (min-width: 576px) {
-    #logo {
-        font-size: 180%;
-    }
+  #logo {
+    font-size: 180%;
+  }
 
-    /*Gallery Page*/
-    #gallery-portrait, #gallery-landscape {
-        grid-template-columns: repeat(2, auto);
-    }
+  /*Gallery Page*/
+  /*  #gallery-portrait,
+  #gallery-landscape {
+    grid-template-columns: repeat(2, auto);
+  }
 
-
+  .gallery-img {
+    width: calc(100% / 2 - 15px);
+  }*/
 }
 /*Tablets and up - 768px plus*/
 @media screen and (min-width: 768px) {
-    /*Header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+  /*Header*/
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 
-    #main-menu {
-        display: flex;
-    }
+  #main-menu {
+    display: flex;
+  }
 
-    #main-menu > li {
-        padding-left: 1rem;
-    }
+  #main-menu > li {
+    padding-left: 1rem;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #logo {
-        font-size: 200%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    } 
+  #logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
 
-    /*Main content*/
-    main {
-        /*Push main content down under header*/
-        margin-top: 75px;
-    }
+  /*Main content*/
+  main {
+    /*Push main content down under header*/
+    margin-top: 75px;
+  }
 
-    .banner-title {
-        font-family: "Charmonman", sans-serif;
-        font-size: 200%;
-        width: 100%;
-    }
-      
-    .banner-about {
-        max-width: 80%;
-        margin: 2rem auto;
-    } 
+  .banner-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 200%;
+    width: 100%;
+  }
 
-    /*Style Section*/
-    .style-title {
-        font-family: "Charmonman", sans-serif;
-        font-size: 180%;
-        width: 100%;
-    }
-      
-    .style-about {
-        max-width: 80%;
-        margin: 30px auto;
-    } 
+  .banner-about {
+    max-width: 80%;
+    margin: 2rem auto;
+  }
 
-    #style-row {
-        grid-template-columns: repeat(4, auto);
-        }
+  /*Style Section*/
+  .style-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 180%;
+    width: 100%;
+  }
 
-    /*Event Section*/
-    #event-dates {
-        flex-direction: row;
-        display: flex;
-    }
+  .style-about {
+    max-width: 80%;
+    margin: 30px auto;
+  }
 
-    /* Gallery */
-    #gallery-portrait, #gallery-landscape {
-        grid-template-columns: repeat(3, auto);
-    }
+  #style-row {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  /*Event Section*/
+  #event-dates {
+    flex-direction: row;
+    display: flex;
+  }
+
+  /* Gallery */
+  /*#gallery-portrait,
+  #gallery-landscape {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .gallery-img {
+    width: calc(100% / 3 - 15px);
+  }*/
 }
 
 /*Laptops and up - 992px plus*/
 @media screen and (min-width: 992px) {
+  #logo {
+    font-size: 280%;
+  }
 
-    #logo {
-        font-size:280%;
-    }
+  /*Main content*/
+  main {
+    /*Push main content down under header*/
+    margin-top: 76px;
+  }
 
-    /*Main content*/
-    main {
-        /*Push main content down under header*/
-        margin-top: 76px;
-    }
+  /*Menu hover animation*/
+  #main-menu a:hover {
+    border-bottom: 4px solid #192e25;
+  }
 
-    /*Menu hover animation*/
-    #main-menu a:hover {
-        border-bottom: 4px solid #192e25;
-    }
+  /*Banner*/
+  .banner-image,
+  .banner-image-comm {
+    height: 300px;
+  }
 
-    /*Banner*/
-    .banner-image, .banner-image-comm {
-        height: 300px;
-    }
+  /*Text in the Banner Section*/
 
-    /*Text in the Banner Section*/
-      
-    .banner-title {
-        font-family: "Charmonman", sans-serif;
-        font-size: 300%;
-        width: 100%;
-    }
-      
-    .banner-about {
-        max-width: 93%;
-    } 
+  .banner-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 300%;
+    width: 100%;
+  }
 
-    /*Style Section*/
-    .style-title {
-        font-family: "Charmonman", sans-serif;
-        font-size: 250%;
-        width: 100%;
-    }
-      
-    .style-about {
-        max-width: 95%;
-    } 
+  .banner-about {
+    max-width: 93%;
+  }
 
-    /* Gallery */
-    #gallery-portrait, #gallery-landscape {
-        grid-template-columns: repeat(5, auto);
-    }
+  /*Style Section*/
+  .style-title {
+    font-family: "Charmonman", sans-serif;
+    font-size: 250%;
+    width: 100%;
+  }
+
+  .style-about {
+    max-width: 95%;
+  }
+
+  /* Gallery */
+  /*#gallery-portrait,
+  #gallery-landscape {
+    grid-template-columns: repeat(5, auto);
+  }
+
+  .gallery-img {
+    width: calc(100% / 5 - 15px);
+  }*/
 }
