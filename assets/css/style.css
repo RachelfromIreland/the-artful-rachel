@@ -253,6 +253,7 @@ main {
 .contact-text {
   display: flex;
   text-align: center;
+  align-items: center;
   margin: 16px;
   flex-direction: column;
   padding: 30px;
