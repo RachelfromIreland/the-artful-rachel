@@ -109,7 +109,7 @@ main {
 .banner-image {
   height: 50vh;
   width: 100%;
-  background: url("../images/Background-Image.jpg") no-repeat center
+  background: url("../images/background-image.jpg") no-repeat center
     center/cover;
   position: relative;
 }
@@ -230,7 +230,7 @@ main {
 }
 
 #event-dates {
-  background: url("../images/Autumnal-Pattern.jpg") no-repeat center/cover;
+  background: url("../images/autumnal-pattern.jpg") no-repeat center/cover;
 }
 
 #event-dates div {
@@ -337,7 +337,7 @@ main {
 }
 
 #commissions {
-  background-image: url("../images/Migrating-Duo.jpg");
+  background-image: url("../images/migrating-duo.jpg");
   background-size: cover;
   background-position: 75%;
   flex-grow: 1;
