@@ -188,10 +188,10 @@ No unsolved bugs were detected after testing.
 
 ### Validator Testing
 HTML
-- No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  Screenshots of the results for the [Homepage](/documents/html-validator-screenshot.png), [Gallery](/documents/gallery-validator-screenshot.png), [Commissions](/documents/form-validator-screenshot.png) and [Thank You Message](/documents/thanks-validator-screenshot.png) have been uploaded.
+- No errors were found when passing through the official [W3C validator](https://validator.w3.org/).  Screenshots of the results for the [Homepage](/documents/html-validator-screenshot.png), [Gallery](/documents/gallery-validator-screenshot.png), [Commissions](/documents/form-validator-screenshot.png) and [Thank You Message](/documents/thanks-validator-screenshot.png) have been uploaded.
 
 CSS
-- No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/)
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).  A screenshot of the results is available [here](/documents/css-validator.png).
 
 
 # Deployment
