@@ -137,6 +137,20 @@ Git was used for the version control of the website.
 GitHub was used to host the code of the website.
 
 # Design
+The original idea for this project was to create an online gallery and commissions request page for an artist or painter.  The first draft can be seen in the wireframes below.
+
+Original concept for Homepage:
+
+![Homepage wireframe screenshot](/documents/homepage-wireframe.png)
+
+Original concept for Gallery:
+
+![Gallery wireframe screenshot](/documents/gallery-wireframe.png)
+
+Original concept for Commissions Form:
+
+![Commissions wireframe screenshot](/documents/form-wireframe.png)
+
 ## Color Scheme
 The project uses a limited color scheme, found [here](https://looka.com/blog/12-fall-color-palettes/).  The chosen palette was number 12 – Idle Afternoon, with the two colors specifically being `#979f83` and `#192e25`.  These were converted to RGBA for when transparency was needed.  These colors were chosen as they were warm and inviting, and will not clash with any of the artwork.
 
@@ -160,9 +174,20 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 - I have proofread all the text and checked that elements are easy to read and understand.
 - I have tested the commission form and confirmed the animated elements work.  I have also checked to ensure the Thank You page is loaded after the user hits the submit button.
 
+### Bugs
+#### Solved Bugs
+| Bug | Solution |
+| ---| ---|
+| The gallery and homepage images were showing errors in the validator due to their height and width values. | Solution: Moved the styling for these images to CSS |
+| The images in the gallery were not showing in full and the images exceeded the screen width. | Updated CSS grid in the stylesheet to have columns fill the available space and added margins and padding where needed.  Resized all image files so they were the width of the container to prevent images from appearing cropped or overlapped. |
+|  |  |
+
+#### Unsolved Bugs
+No unsolved bugs were detected after testing.
+
 ### Validator Testing
 HTML
-- One error was found and left in the project after being put through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  This is explained below in the 'Future Improvements' Section.
+- No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).  
 
 CSS
 - No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/)
@@ -182,25 +207,23 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 git clone https://github.com/RachelfromIreland/the-artful-rachel.git
 
 # Future improvements
-- Image placement: One of the errors flagged in the HTML coding was that the "height" and "width" of the images on the Home and Gallery pages should have a number but a percentage is listed.  I tried several times to fix this but just made things worse.  I decided to leave this code as is with the hope of fixing it in the future with some help.
+- In the future, I would like the images in this project to grow as the browser page grows.  I decided not to implement this at this time as the image quality is poor when they appear larger due to the resizing completed to fix a bug mentioned above.
 
 - Commit messages.  I’m very new to coding and feel I can commit more frequently with more descriptive messages.
 
-- Work more closely with a mentor for guidance.  I was assigned a new mentor (at my request) before submitting the project so the final project has not been checked by a mentor.  I’m sure there are some areas I could have done better.
-# Disclaimer:
-The reason an error was left in and for my mentor change is because of recent health issues.  This has been discussed with Student Care and I am feeling supported.  The timing of this first project and the fact I've already been granted an extension just mean I am too late to ask for help to fix the errors I found.  I will do much better with this in the future.
-
 # Credits
 ## Content
-Inspiration for the footer as well as style elements cited within the code come from Code Institute’s Love Running project. 
+- Inspiration for the footer as well as style elements cited within the code come from Code Institute’s Love Running project. 
 
-Elements of the CSS styling are directly inspired by my mentor Julia Konovalova’s “Animal Shelter” project, these have also been cited in the code.
+- Elements of the CSS styling are directly inspired by my mentor Julia Konovalova’s [“Animal Shelter”](https://github.com/IuliiaKonovalova/animal_shelter/blob/main/gallery.html#L69C10-L73C25) project, these have also been cited in the code.
 
-The Gallery page’s hover animation which shows text was inspired by a YouTube video by [Kevin Powell](https://www.youtube.com/watch?v=ceNMP-aQkQ4).
+- The Gallery page’s hover animation which shows text was inspired by a YouTube video by [Kevin Powell](https://www.youtube.com/watch?v=ceNMP-aQkQ4).
 
+- Making CSS grid responsive for the columns in the gallery and style sections was learned from an article by [Aidan K McBride](https://aidankmcbride.medium.com/css-tips-and-tricks-81d3c641428).
 ## Media
 All the images for the website are the author’s own.
 # Tools
-W3Schools was a huge help for me in understanding how to make the things I wanted to code more readable.
-
+- W3Schools was a huge help for me in understanding how to make the things I wanted to code more readable.
+- Paint 3D was used to resize images.
+- [Wireframe.cc](https://wireframe.cc/) was used to create the wireframes.
 
