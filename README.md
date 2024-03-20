@@ -60,7 +60,7 @@ The Banner section has a fixed background image.
 Directly below the banner is an information section that contains:
 - The name of the artist's website.
 - Short description of the artist’s style.
-- Contact button that leads directly to the commission page.
+- A contact button that leads directly to the commission page.
 
 ![Banner Section](documents/banner-section.JPG)
 
