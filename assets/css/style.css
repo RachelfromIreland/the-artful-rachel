@@ -160,6 +160,7 @@ main {
 .style {
   width: auto;
   background-color: whitesmoke;
+  margin: 10px;
 }
 
 .style-text {
