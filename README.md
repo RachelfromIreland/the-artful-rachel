@@ -1,12 +1,34 @@
 ![The Artful Rachel Logo](documents/logo.JPG)
 
-The Artful Rachel website allows people to learn about the works of an artist named Rachel as well as view information about upcoming events and showings for the artist. The visitors of the website could quickly access social media links for the artist and request custom artwork.
+The Artful Rachel website allows people to learn about the works of an artist named Rachel as well as view information about upcoming events and showings for the artist. The visitors of the website can quickly access social media links for the artist and request custom artwork.
 
 The site can be accessed by this [link](https://rachelfromireland.github.io/the-artful-rachel/).
 
 ![Responsive Mockup Image](documents/mockup.JPG)
 
-# User Stories
+## Contents
+
+* [User Stories](#user-stories)
+* [Features](#features)
+    * [Navbar](#navbar)
+    * [Home Page](#home-page)
+    * [Art Gallery Page](#art-gallery-page)
+    * [Commission Page](#commission-page)
+    * [Thank You Page](#thank-you-page)
+* [Design](#design)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+* [Testing](#testing)
+    * [Manual Testing](#manual-testing)
+    * [Bugs](#bugs)
+    * [Validator Testing](#validator-testing)
+* [Technologies Used](#technologies-used)
+* [Deployment](#deployment)
+* [Future Improvements](#future-improvements)
+* [Credits](#credits)
+* [Tools](#tools)
+
+## User Stories
 ### First Time Visitor Goals:
 - As a First Time Visitor, I want to understand the site’s main purpose at a glance, so I can learn more about the artist.
 - As a First Time Visitor, I want the site to be easy to read and intuitive to navigate to avoid leaving because it is frustrating and instead have a pleasant user experience.
@@ -21,9 +43,9 @@ The site can be accessed by this [link](https://rachelfromireland.github.io/the-
 ### Frequent Visitor Goals:
 - As a Frequent User, I want to be able to see updated live events and an updated gallery page showing the artist cares about the website and keeping things up to date.
 
-# Features
+## Features
 
-## Navbar
+### Navbar
 
 ![Navbar Desktop](documents/navbar.JPG)
 - Positioned at the top of the page.
@@ -46,7 +68,7 @@ When the palette menu is clicked, there is a dropdown menu with the links in the
 
 ![Navbar mobile with menu expanded](documents/navbar-mobi-expand.JPG)
 
-## Home Page
+### Home Page
 #### Represents:
 - The main business of the artist.
 - Describes the artist and their style.
@@ -91,7 +113,7 @@ The footer contains social media links that open in a new tab.
 
 ![Footer section](documents/footer.JPG)
 
-## Art Gallery Page
+### Art Gallery Page
 - The Gallery page has an identical banner image and a message for the visitors that contains a short description and invites them to hover over an image to learn more.
 - It has a button after the description that leads to the commission page.
 - It has photos of past artworks completed by the artist and serves as a virtual gallery.
@@ -102,7 +124,7 @@ The footer contains social media links that open in a new tab.
 
 ![Gallery Page](documents/gallery.jpg)
 
-## Commission page
+### Commission page
 The Commission page contains a contact form:
 - All text input fields are customized.
 - All inputs are set to be required to be filled out.
@@ -113,7 +135,7 @@ The Commission page contains a contact form:
 
 ![Commissions Page](documents/commissions.jpg)
 
-## Thank You Page
+### Thank You Page
 - The Thank You page appears after submitting the commission form.
 - It contains a thank you message with some additional information about order times.
 - There is a button below the message which brings the user back to the home page.
@@ -121,22 +143,9 @@ The Commission page contains a contact form:
 ![Thank You Page](documents/thanks-page.JPG)
 
 
-# Technologies Used
-HTML was used as the foundation of the site.
 
-CSS - was used to add the styles and layout of the site.
 
-CSS Flexbox - was used to arrange elements on the pages.
-
-CSS Grid - was used to make "gallery" and "commission" pages responsive.
-
-VSCode was used as the main tool to write and edit code.
-
-Git was used for the version control of the website.
-
-GitHub was used to host the code of the website.
-
-# Design
+## Design
 The original idea for this project was to create an online gallery and commissions request page for an artist or painter.  The first draft can be seen in the wireframes below.
 
 Original concept for Homepage:
@@ -151,24 +160,26 @@ Original concept for Commissions Form:
 
 ![Commissions wireframe screenshot](/documents/form-wireframe.png)
 
-## Color Scheme
+### Color Scheme
 The project uses a limited color scheme, found [here](https://looka.com/blog/12-fall-color-palettes/).  The chosen palette was number 12 – Idle Afternoon, with the two colors specifically being `#979f83` and `#192e25`.  These were converted to RGBA for when transparency was needed.  These colors were chosen as they were warm and inviting, and will not clash with any of the artwork.
 
 ![Color Scheme image](documents/colours.JPG)
 
-## Typography
-### Main Font
+### Typography
+#### Main Font
 Poppins from Google Fonts is the main font of the website to increase the readability of the content on the pages.
 
 ![Poppins font](documents/poppins-font.JPG)
 
-### Logo Font
+#### Logo Font
 Charmonman from Google Fonts was used to attract viewers' attention to the artist’s logo.  It was chosen as it looks handwritten and matches the theme of the site.
 
 ![Charmonman font](documents/char-font.JPG)
 
+
 ## Testing
 
+### Manual Testing
 - I tested this page in different browsers to ensure it worked.  The browsers tested were Chrome, Firefox and Safari.
 - I have used DevTools to confirm that the project is responsive and looks good on all standard screen sizes.
 - I have proofread all the text and checked that elements are easy to read and understand.
@@ -179,22 +190,32 @@ Charmonman from Google Fonts was used to attract viewers' attention to the artis
 #### Solved Bugs
 | Bug | Solution |
 | ---| ---|
-| The gallery and homepage images were showing errors in the validator due to their height and width values. | Solution: Moved the styling for these images to CSS |
+| The gallery and homepage images were showing errors in the validator due to their height and width values. | Solution: Moved the styling for these images to CSS instead of having the height and width in the HTML element. |
 | The images in the gallery were not showing in full and the images exceeded the screen width. | Updated CSS grid in the stylesheet to have columns fill the available space and added margins and padding where needed.  Resized all image files so they were the width of the container to prevent images from appearing cropped or overlapped. |
 | When viewing the Thank You message on mobile part of the button to return to the homepage was obscured by the footer. | Changed padding on mobile from 50px to 15px so text took up less room and button appeared above footer.  Added media query for original padding on large phones and above. |
 
 #### Unsolved Bugs
-No unsolved bugs were detected after testing.
+- No unsolved bugs were detected after testing.
 
 ### Validator Testing
-HTML
+#### HTML
 - No errors were found when passing through the official [W3C validator](https://validator.w3.org/).  Screenshots of the results for the [Homepage](/documents/html-validator-screenshot.png), [Gallery](/documents/gallery-validator-screenshot.png), [Commissions](/documents/form-validator-screenshot.png) and [Thank You Message](/documents/thanks-validator-screenshot.png) have been uploaded.
 
-CSS
+#### CSS
 - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).  A screenshot of the results is available [here](/documents/css-validator.png).
 
 
-# Deployment
+## Technologies Used
+- HTML was used as the foundation of the site.
+- CSS - was used to add the styles and layout of the site.
+- CSS Flexbox - was used to arrange elements on the pages.
+- CSS Grid - was used to make "gallery" and "commission" pages responsive.
+- VSCode was used as the main tool to write and edit code.
+- Git was used for the version control of the website.
+- GitHub was used to host the code of the website.
+
+
+## Deployment
 ### Deployment to GitHub Pages
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
@@ -202,18 +223,18 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://rachelfromireland.github.io/the-artful-rachel/).
-### Deployment Locally
-In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+### Local Deployment
+To make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone the repository:
 
 git clone https://github.com/RachelfromIreland/the-artful-rachel.git
 
-# Future improvements
+## Future improvements
 - In the future, I would like the images in this project to grow as the browser page grows.  I decided not to implement this at this time as the image quality is poor when they appear larger due to the resizing completed to fix a bug mentioned above.
 
 - Commit messages.  I’m very new to coding and feel I can commit more frequently with more descriptive messages.
 
-# Credits
-## Content
+## Credits
+### Content
 - Inspiration for the footer as well as style elements cited within the code come from Code Institute’s Love Running project. 
 
 - Elements of the CSS styling are directly inspired by my mentor Julia Konovalova’s [“Animal Shelter”](https://github.com/IuliiaKonovalova/animal_shelter/blob/main/gallery.html#L69C10-L73C25) project, these have also been cited in the code.
@@ -221,9 +242,9 @@ git clone https://github.com/RachelfromIreland/the-artful-rachel.git
 - The Gallery page’s hover animation which shows text was inspired by a YouTube video by [Kevin Powell](https://www.youtube.com/watch?v=ceNMP-aQkQ4).
 
 - Making CSS grid responsive for the columns in the gallery and style sections was learned from an article by [Aidan K McBride](https://aidankmcbride.medium.com/css-tips-and-tricks-81d3c641428).
-## Media
+### Media
 All the images for the website are the author’s own.
-# Tools
+## Tools
 - W3Schools was a huge help for me in understanding how to make the things I wanted to code more readable.
 - Paint 3D was used to resize images.
 - [Wireframe cc](https://wireframe.cc/) was used to create the wireframes.
