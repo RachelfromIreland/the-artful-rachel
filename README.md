@@ -1,10 +1,10 @@
-![The Artful Rachel Logo](documents/Logo.JPG)
+![The Artful Rachel Logo](documents/logo.JPG)
 
 The Artful Rachel website allows people to learn about the works of an artist named Rachel as well as view information about upcoming events and showings for the artist. The visitors of the website could quickly access social media links for the artist and request custom artwork.
 
 The site can be accessed by this [link](https://rachelfromireland.github.io/the-artful-rachel/).
 
-![Responsive Mockup Image](documents/Mockup.JPG)
+![Responsive Mockup Image](documents/mockup.JPG)
 
 # User Stories
 ### First Time Visitor Goals:
@@ -25,7 +25,7 @@ The site can be accessed by this [link](https://rachelfromireland.github.io/the-
 
 ## Navbar
 
-![Navbar Desktop](documents/NavBar.JPG)
+![Navbar Desktop](documents/navbar.JPG)
 - Positioned at the top of the page.
 - Contains the name of the website on the left side.
 - Contains navigation links on the right side:
@@ -40,11 +40,11 @@ The navigation bar is responsive:
 
 On Mobile Devices the navigation bar is hidden and is toggled by a palette button on the right-hand side.
 
-![Navbar on mobile](documents/Navbar-Mobi.JPG)
+![Navbar on mobile](documents/navbar-mobi.JPG)
 
 When the palette menu is clicked, there is a dropdown menu with the links in the same order. 
 
-![Navbar mobile with menu expanded](documents/Navbar-Mobi-Expand.JPG)
+![Navbar mobile with menu expanded](documents/navbar-mobi-expand.JPG)
 
 ## Home Page
 #### Represents:
@@ -53,7 +53,7 @@ When the palette menu is clicked, there is a dropdown menu with the links in the
 - Shows live event dates and info.
 - Invites users to fill out the commission form.
  
- ![Home Page Screenshot](documents/Home-Page.jpg)
+ ![Home Page Screenshot](documents/home-page.jpg)
 
 ### Banner Section
 The Banner section has a fixed background image.
@@ -62,14 +62,14 @@ Directly below the banner is an information section that contains:
 - Short description of the artist’s style.
 - Contact button that leads directly to the commission page.
 
-![Banner Section](documents/Banner-Section.JPG)
+![Banner Section](documents/banner-section.JPG)
 
 ### Art Styles Section
 - The Art Styles Section begins with a short description of the artist’s mediums and reminds users they can order custom art.
 - The Art Styles Section has some images of recent artworks, which can also be seen in the gallery.  One image for each medium type the artist uses.
 - Entices viewers to consider ordering a piece of custom artwork.
 
-![Art styles section](documents/Style-Section.JPG)
+![Art styles section](documents/style-section.JPG)
 
 ### Events Section
 - The Events section has four upcoming events and one ongoing event, gallery showings, art sales and a paint-along session.
@@ -77,19 +77,19 @@ Directly below the banner is an information section that contains:
 - Each box has the address and date of the event listed.
 - Each box is transparent and situated on a background image.
 
-![Events Section](documents/Events-Section.JPG)
+![Events Section](documents/events-section.JPG)
 
 ### Contact Us Section
 - The Contact Us Section has an explicit message for the visitors of the website to contact the artist.
 - It contains an email and phone number so users can query about things not related to ordering art or that aren’t covered by the form.
 - It also has a button that directs to the commission page.  
 
-![Contact Section](documents/Contact-Section.JPG)
+![Contact Section](documents/contact-section.JPG)
 
 ### Footer
 The footer contains social media links that open in a new tab.  
 
-![Footer section](documents/Footer.JPG)
+![Footer section](documents/footer.JPG)
 
 ## Art Gallery Page
 - The Gallery page has an identical banner image and a message for the visitors that contains a short description and invites them to hover over an image to learn more.
@@ -100,7 +100,7 @@ The footer contains social media links that open in a new tab.
 - The description contains the name of the artwork, the medium used and the surface it was painted on.
 - It has a footer which is identical to the home page's footer.
 
-![Gallery Page](documents/Gallery.jpg)
+![Gallery Page](documents/gallery.jpg)
 
 ## Commission page
 The Commission page contains a contact form:
@@ -111,14 +111,14 @@ The Commission page contains a contact form:
 - The page is responsive on all common screen sizes.
 - The submit button leads to the Thank You page. 
 
-![Commissions Page](documents/Commissions.jpg)
+![Commissions Page](documents/commissions.jpg)
 
 ## Thank You Page
 - The Thank You page appears after submitting the commission form.
 - It contains a thank you message with some additional information about order times.
 - There is a button below the message which brings the user back to the home page.
 
-![Thank You Page](documents/Thanks-Page.JPG)
+![Thank You Page](documents/thanks-page.JPG)
 
 
 # Technologies Used
@@ -154,18 +154,18 @@ Original concept for Commissions Form:
 ## Color Scheme
 The project uses a limited color scheme, found [here](https://looka.com/blog/12-fall-color-palettes/).  The chosen palette was number 12 – Idle Afternoon, with the two colors specifically being `#979f83` and `#192e25`.  These were converted to RGBA for when transparency was needed.  These colors were chosen as they were warm and inviting, and will not clash with any of the artwork.
 
-![Color Scheme image](documents/Colours.JPG)
+![Color Scheme image](documents/colours.JPG)
 
 ## Typography
 ### Main Font
 Poppins from Google Fonts is the main font of the website to increase the readability of the content on the pages.
 
-![Poppins font](documents/Poppins-Font.JPG)
+![Poppins font](documents/poppins-font.JPG)
 
 ### Logo Font
 Charmonman from Google Fonts was used to attract viewers' attention to the artist’s logo.  It was chosen as it looks handwritten and matches the theme of the site.
 
-![Charmonman font](documents/Char-font.JPG)
+![Charmonman font](documents/char-font.JPG)
 
 ## Testing
 
